@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ct-header-menu-items {
+    @apply opacity-60 font-medium relative text-sm after:absolute after:w-0 after:h-0.5 hover:opacity-100 after:bg-pink-color after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-200 uppercase;
+}
